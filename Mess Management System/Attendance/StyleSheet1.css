@@ -1,0 +1,71 @@
+﻿/* ------------------------ Header --------------------------- */
+body {
+    background: url("https://plus.unsplash.com/premium_photo-1661964071015-d97428970584?q=80&w=1020&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0px;
+}
+header{
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px 10px 30px 30px;
+    margin: 10px;
+}
+.title-bar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.logo-text{
+    color: white;
+    font-size: x-large;
+}
+.navigation{
+    padding-bottom: 20px;
+}
+.nav-item{
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.nav-active {
+    border: 1px solid white;
+}
+.nav-item:hover{
+    background-color: rgb(255, 255, 255, 0.20);
+}
+/* ------------------------ Footer --------------------------- */
+footer {
+    background-color: blue;
+    padding: 10px;
+    border-radius: 30px 30px 10px 10px;
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    margin: 10px;
+    width: calc(100% - 20px);
+    box-sizing: border-box;
+    padding: 10px;
+}
+.footer-content{
+    display: flex;
+    justify-content: left;
+    column-gap: 10px;
+    align-items: center;
+}
+.logo-div{
+    font-size: larger;
+}
+.footer-pages li{
+    padding: 5px;
+}
+.footer-content li:hover{
+    text-decoration-line: underline;
+}
+.copyright-text {
+    text-align: center;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 0px 0px 10px 10px;
+}
